@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Tim Ludwinski">
+	<meta name="description" content="Snuggle the Monsters">
+	<meta name="keywords" content="monster snuggle snuggly cute game funny fun fuzzy hug laugh">
+	
+	<title>Snuggle the Monsters!! | snugglethemonsters.com</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<div id="ad_container_top"></div>
+	
+	<h1>Snuggle the Monsters</h1>
+	<div id="main_view">
+		<img id="player" src="images/player.png">
+		<div id="finished_text">SNUGGLED!!</div>
+	</div>
+	
+	<p class="instructions">Use the arrow keys to move.  Press "S" to snuggle</p>
+	<p class="instructions">By Tim Ludwinski - Made for Amber</p>
+	<p class="instructions" style="font-size: 10px">Copyright (c) 2021 - Mark Timothy Ludwinski - All rights reserved</p>
+	
+	<form action="https://www.paypal.com/donate" method="post" target="_top">
+		<input type="hidden" name="business" value="XAAMHB4BSFTUE" />
+		<input type="hidden" name="item_name" value="If you like this game, donate so I can make more games.  " />
+		<input type="hidden" name="currency_code" value="USD" />
+		<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+		<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+	</form>
+	
+	<div id="ad_container_bottom"></div>
+	
+	<audio id="snuggleSound" src="sounds/snuggle-converted.mp3" preload="auto" controls="none" style="display: none;"></audio>
+	<audio id="rarrSound" src="sounds/rarr-converted.mp3" preload="auto" controls="none" style="display: none;"></audio>
+	<audio id="tadaSound" src="sounds/tada-converted.mp3" preload="auto" controls="none" style="display: none;"></audio>
+	<audio id="winSound" src="sounds/win-converted.mp3" preload="auto" controls="none" style="display: none;"></audio>
+	
+	<script src="utils.js" type="text/javascript"></script>
+	
+	<script src="model/index.js" type="text/javascript"></script>
+	<script src="model/monster.js" type="text/javascript"></script>
+	<script src="model/player.js" type="text/javascript"></script>
+	
+	<script src="view.js" type="text/javascript"></script>
+	<script src="controller.js" type="text/javascript"></script>
+	<script src="main.js" type="text/javascript"></script>
+	<script src="ads.js" type="text/javascript"></script>
+</body>
+</html>

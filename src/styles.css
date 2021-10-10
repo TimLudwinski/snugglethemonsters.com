@@ -1,0 +1,62 @@
+/*
+Copyright (c) 2021 - Mark Timothy Ludwinski - All rights reserved
+
+Any usage outside of snugglethemonster.com is strictly prohibited.  
+*/
+body {
+	text-align: center;
+}
+
+#main_view {
+	padding: 10px; 
+	background: ghostwhite; 
+	border: 1px solid lightgray; 
+	height: 500px;
+	width: 800px;
+	
+	/* Center the view */
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.instructions {
+	font-weight: bold;
+	text-align: center;
+}
+
+#player {
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	top: 10px;
+	left: 10px;
+}
+
+.monster {
+	position: absolute;
+	height: 75px;
+	width": 75px;
+}
+
+.monster_image {
+	height: 75px;
+	width": 75px;
+}
+
+.heart {
+	position: absolute;
+	top: -10px;
+	left: 40px;
+}
+
+#finished_text {
+	display: none; /* Don't Display this until the game is done */
+	position: absolute;
+	font-size: 200px;
+	left: -120px;
+	top: 150px;
+}
